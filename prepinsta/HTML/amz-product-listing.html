@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="html-css/amz-listing.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My E-Commerce Store</h1>
+    </header>
+    <main>
+      <aside class="filters">
+        <h2>Filters</h2>
+        <form id="filterForm">
+          <div class="filter-section">
+            <h3>Category</h3>
+            <label>
+              <input type="checkbox" name="category" value="electronics" />
+              Electronics
+            </label>
+            <label>
+              <input type="checkbox" name="category" value="clothing" />
+              Clothing
+            </label>
+            <label>
+              <input type="checkbox" name="category" value="home" /> Home
+            </label>
+          </div>
+          <div class="filter-section">
+            <h3>Price Range</h3>
+            <label>
+              <input type="radio" name="price" value="0-50" /> $0 - $50
+            </label>
+            <label>
+              <input type="radio" name="price" value="50-100" /> $50 - $100
+            </label>
+            <label>
+              <input type="radio" name="price" value="100-200" /> $100 - $200
+            </label>
+            <label>
+              <input type="radio" name="price" value="200+" /> $200+
+            </label>
+          </div>
+          <button type="submit">Apply Filters</button>
+        </form>
+      </aside>
+      <section class="product-list">
+        <div class="product-card">
+          <img src="img/product1.png" alt="Product Image" />
+          <h3>Product Name</h3>
+          <p class="price">$49.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="img/product2.png" alt="Product Image" />
+          <h3>Product Name</h3>
+          <p class="price">$79.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="img/product3.png" alt="Product Image" />
+          <h3>Product Name</h3>
+          <p class="price">$129.99</p>
+          <button>Add to Cart</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
