@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      caption {
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Weekly Time Table
+      </caption>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:00 - 9:00 AM</td>
+          <td colspan="5">Wake up & Exercise</td>
+        </tr>
+        <tr>
+          <td>9:00 - 10:00 AM</td>
+          <td colspan="5">Meditate</td>
+        </tr>
+        <tr>
+          <td>10:00 - 11:00 AM</td>
+          <td colspan="5">Have Breakfast</td>
+        </tr>
+        <tr>
+          <td>11:00 AM - 12:00 PM</td>
+          <td rowspan="3">Go out for shopping</td>
+          <td rowspan="3">Run Errands</td>
+          <td>Take a nap</td>
+          <td rowspan="4">Complete Assignments</td>
+          <td rowspan="6">Study</td>
+        </tr>
+        <tr>
+          <td>12:00 - 1:00 PM</td>
+
+          <td rowspan="3">Complete Assignments</td>
+        </tr>
+        <tr>
+          <td>1:00 - 2:00 PM</td>
+        </tr>
+        <tr>
+          <td>2:00 - 3:00 PM</td>
+          <td rowspan="3" colspan="2">Study</td>
+        </tr>
+        <tr>
+          <td>3:00 - 4:00 PM</td>
+          <td rowspan="2" colspan="2">Study</td>
+        </tr>
+        <tr>
+          <td>4:00 - 5:00 PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

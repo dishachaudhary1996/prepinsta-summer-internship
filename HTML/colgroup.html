@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table using &lt;colgroup&gt;</title>
+  </head>
+  <body>
+    <table>
+      <h1>Basic Table example with &lt;<code>colgroup</code>&gt;</h1>
+      <colgroup>
+        <col style="background-color: lightgrey" />
+        <col style="background-color: lightblue" />
+      </colgroup>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+    </table>
+    <h1>Example with span attribute</h1>
+    <table>
+      <colgroup span="2" style="background-color: lightgrey"></colgroup>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+    </table>
+    <h1>Example with multiple <code>`col`</code> elements</h1>
+    <table>
+      <colgroup>
+        <col style="background-color: lightgrey" />
+        <col style="background-color: lightblue" />
+      </colgroup>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+    </table>
+  </body>
+</html>
