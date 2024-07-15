@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tell Fortune</title>
+  </head>
+  <body>
+    <script>
+      function tellFortune(children, partner, location, job) {
+        const fortune = `You will be a ${job} in ${location}, and married to ${partner} with ${children} kids.`;
+        document.body.innerHTML += `<p>${fortune}</p>`;
+      }
+
+      // Call the function three times with different values
+      tellFortune(3, "Alice", "New York", "Software Developer");
+      tellFortune(2, "Bob", "Los Angeles", "Graphic Designer");
+      tellFortune(4, "Charlie", "London", "Doctor");
+    </script>
+  </body>
+</html>

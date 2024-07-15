@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Age Calculator</title>
+  </head>
+  <body>
+    <script>
+      function calculatePetAge(petAge, conversionRate = 7) {
+        const petYears = petAge * conversionRate;
+        const message = `Your pet is ${petYears} years old in pet years!`;
+        document.body.innerHTML += `<p>${message}</p>`;
+      }
+
+      // Call the function three times with different values
+      calculatePetAge(3); // Default conversion rate of 7 for cats
+      calculatePetAge(5, 7); // Explicitly specifying conversion rate for cats
+      calculatePetAge(2, 5); // Different conversion rate, e.g., for dogs
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+* {
+  background-color: #aea8d8;
+  font-family: "Montserrat-Regular";
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(Fonts/static/Montserrat-Regular.ttf) format(truetype);
+}
+
+.header-container {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.description {
+  width: 1200px;
+  margin-top: 2rem;
+  /* margin-left: 0; */
+}
+
+.portfolio-image {
+  height: "auto";
+  width: fit-content;
+  border: 10px solid #615a8b;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.experience-header {
+  font-size: 2.2rem;
+  margin: 1rem;
+}
+
+.job-heading {
+  font-size: 1.5rem;
+}

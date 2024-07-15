@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distance Converter</title>
+  </head>
+  <body>
+    <script>
+      // Function to convert meters to feet
+      function metersToFeet(meters) {
+        const feet = meters * 3.281;
+        const message = `${meters} meters is equal to ${feet.toFixed(2)} feet.`;
+        console.log(message);
+        document.body.innerHTML += `<p>${message}</p>`;
+      }
+
+      // Function to convert feet to meters
+      function feetToMeters(feet) {
+        const meters = feet * 0.3048;
+        const message = `${feet} feet is equal to ${meters.toFixed(2)} meters.`;
+        console.log(message);
+        document.body.innerHTML += `<p>${message}</p>`;
+      }
+
+      // Call the functions with different values
+      metersToFeet(10);
+      metersToFeet(25.5);
+      metersToFeet(100);
+
+      feetToMeters(32.8);
+      feetToMeters(75.5);
+      feetToMeters(200);
+    </script>
+  </body>
+</html>

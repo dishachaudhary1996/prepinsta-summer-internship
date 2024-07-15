@@ -5,98 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
     <link rel="shortcut icon" href="img/yelp.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Disha Chaudhary</h1>
-      <hr />
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div>
-      <section>
-        <img
-          src="img/prfolio-image.png"
-          alt="Profile Picture"
-          height="100px"
-          width="100px"
-        />
+    <div class="header-container">
+      <img
+        class="portfolio-image"
+        src="img/prfolio-image.png"
+        alt="Profile Picture"
+      />
+      <div class="description">
+        <h1>Disha Chaudhary</h1>
         <h2>Welcome to My Personal Website</h2>
         <p>
           Hello! I'm Disha Chaudhary, a Web Developer with a passion for
           creating dynamic and user-friendly web applications, exploring new
           technologies, and continuously improving my coding skills.
         </p>
-      </section>
-
-      <section>
-        <h2><u>Experience</u></h2>
-        <hr />
-        <h3>Sr. Support Analyst</h3>
-        <p>
-          Starting 08/2022 to 02/2023, worked as a senior support analyst in KDP
-          business for Amazon, handling publishers from US
-        </p>
-        <p>
-          Other tasks includes managing service follow-up communications,
-          confirming satisfactory resolution for users.
-        </p>
-        <p>
-          Managed and handled the back office processes using analysis tools for
-          the process.
-        </p>
-        <h3>Subject Matter Expert</h3>
-        <p>
-          Duration of the SME role started from 05/2022 to 08/2022, throughout
-          which I designed and prepared technical reports, studies, and related
-          documentation.
-        </p>
-        <p>
-          Supported enterprise and business goals by providing support to the
-          new joiners and meet organizational goals.
-        </p>
-        <p>
-          Analyzed trends in complex incidents to identify areas for process
-          improvement, system enhancements, or additional training needs within
-          the support team.
-        </p>
-        <h3>Support Analyst</h3>
-        <p>
-          Starting 06/2020 to 05/2022, worked as a junior level support analyst,
-          where I supported users with software product and network issues.
-        </p>
-        <p>
-          Managed service follow-up communications, confirming satisfactory
-          resolution of users' service requests.
-        </p>
-        <p>Created user accounts and managed access control.</p>
-      </section>
-      <hr />
-
-      <section>
-        <h2><u>My Skillset Includes:</u></h2>
-        <ul>
-          <li>
-            HTML5: Basic to Advance including semantic HTML5 elements,
-            multimedia integration as well as form handling
-          </li>
-          <li>
-            CSS3: Responsive design, animations and transition and the
-            fundamnetals of grid and flexbox layouts
-          </li>
-          <li>
-            JavaScript: Fundamnetals to advance including event listeners,
-            closures, DOM and promises with async/await
-          </li>
-        </ul>
-      </section>
+      </div>
     </div>
+
+    <div class="job-container">
+      <div class="experience-header">Experience</div>
+
+      <div class="job-heading">Sr. Support Analyst</div>
+      <p>
+        Starting 08/2022 to 02/2023, worked as a senior support analyst in KDP
+        business for Amazon, handling publishers from US
+      </p>
+      <p>
+        Other tasks includes managing service follow-up communications,
+        confirming satisfactory resolution for users.
+      </p>
+      <p>
+        Managed and handled the back office processes using analysis tools for
+        the process.
+      </p>
+      <div class="job-heading">Subject Matter Expert</div>
+      <p>
+        Duration of the SME role started from 05/2022 to 08/2022, throughout
+        which I designed and prepared technical reports, studies, and related
+        documentation.
+      </p>
+      <p>
+        Supported enterprise and business goals by providing support to the new
+        joiners and meet organizational goals.
+      </p>
+      <p>
+        Analyzed trends in complex incidents to identify areas for process
+        improvement, system enhancements, or additional training needs within
+        the support team.
+      </p>
+      <div class="job-heading">Support Analyst</div>
+      <p>
+        Starting 06/2020 to 05/2022, worked as a junior level support analyst,
+        where I supported users with software product and network issues.
+      </p>
+      <p>
+        Managed service follow-up communications, confirming satisfactory
+        resolution of users' service requests.
+      </p>
+      <p>Created user accounts and managed access control.</p>
+    </div>
+
+    <section>
+      <h2><u>My Skillset Includes:</u></h2>
+      <ul>
+        <li>
+          HTML5: Basic to Advance including semantic HTML5 elements, multimedia
+          integration as well as form handling
+        </li>
+        <li>
+          CSS3: Responsive design, animations and transition and the
+          fundamnetals of grid and flexbox layouts
+        </li>
+        <li>
+          JavaScript: Fundamnetals to advance including event listeners,
+          closures, DOM and promises with async/await
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <nav>
+        <ul type="none">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/8c84ee0f9d.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rectangle Properties Calculator</title>
+  </head>
+  <body>
+    <script>
+      // Function to calculate the perimeter of a rectangle
+      function calcPerimeter(length, width) {
+        const perimeter = 2 * (length + width);
+        console.log(`The perimeter is ${perimeter}`);
+        document.body.innerHTML += `<p>The perimeter is ${perimeter}</p>`;
+      }
+
+      // Function to calculate the area of a rectangle
+      function calcArea(length, width) {
+        const area = length * width;
+        console.log(`The area is ${area}`);
+        document.body.innerHTML += `<p>The area is ${area}</p>`;
+      }
+
+      // Test the functions with example values
+      calcPerimeter(5, 3);
+      calcPerimeter(10, 2);
+      calcPerimeter(8, 6);
+
+      calcArea(5, 3);
+      calcArea(10, 2);
+      calcArea(8, 6);
+    </script>
+  </body>
+</html>
